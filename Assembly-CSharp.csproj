@@ -50,19 +50,57 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\WaveFunctionCollapse.cs" />
+     <Compile Include="Assets\Tile.cs" />
+     <Compile Include="Assets\SimpleCameraController.cs" />
+     <Compile Include="Assets\PriorityQueue.cs" />
      <Compile Include="Assets\AdjacencyRules.cs" />
+     <Compile Include="Assets\WaveFunctionCollapse.cs" />
      <Compile Include="Assets\FrequencyRules.cs" />
      <Compile Include="Assets\ModelProcessor.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
-     <Compile Include="Assets\Tile.cs" />
-     <Compile Include="Assets\PriorityQueue.cs" />
-     <Compile Include="Assets\SimpleCameraController.cs" />
+     <Compile Include="Assets\ExampleTile.cs" />
+     <Compile Include="Assets\UI.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -79,29 +117,14 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

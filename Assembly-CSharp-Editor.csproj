@@ -50,8 +50,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
+     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
      <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
@@ -62,8 +62,23 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -80,29 +95,14 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProGrids.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/Unity Projects/Inverse Procedural Modelling/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

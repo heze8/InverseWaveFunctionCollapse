@@ -135,7 +135,16 @@ public class WaveFunctionCollapse : MonoBehaviour
     }
     
     #endregion
- 
+
+    public void Begin()
+    {
+	    BeginProcess();
+    }
+    public void ButtonPress(int i)
+    {
+	    Debug.Log("tile " + i);
+    }
+	
     #region Private Methods
 
     void BeginProcess()
@@ -165,7 +174,7 @@ public class WaveFunctionCollapse : MonoBehaviour
 		    {
 			    for (int z = 0; z < gridSize.z; z++)
 			    {
-				    Debug.Log("Creating cell " + i + " " + j + " " + z);
+				    // Debug.Log("Creating cell " + i + " " + j + " " + z);
 				    
 				    var outputTile = new Cell();
 				    outputTiles[i,j, z] = outputTile;
@@ -316,7 +325,7 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    Tile tile = tiles[tileIndex];
 	    var coor = nextCoor.coor;
 	    Vector3 pos = new Vector3(coor.x * tileSize.x, coor.z * tileSize.y, coor.y * tileSize.z);
-	    Instantiate(tile.tileObj, pos, Quaternion.identity);
+	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.identity);
 	    
 	    for (int i = 0; i < tiles.Count; i++)
 	    {
@@ -370,7 +379,7 @@ public class WaveFunctionCollapse : MonoBehaviour
 
     private bool IsCompatible(Tile tile, Tile tile1, AdjacencyRules.Direction direction)
     {
-	    return true;
+	    return Random.value < 0.5f;
     }
 
 }
