@@ -11,6 +11,7 @@ public class UI : MonoBehaviour
 
     public WaveFunctionCollapse wfc;
     public GameObject buttonPrefab;
+    public GameObject ori;
     public float offset;
     #endregion
  
@@ -21,7 +22,7 @@ public class UI : MonoBehaviour
 	    int i = 0;
 	    foreach (var t in wfc.tiles)
 	    {
-		    var instantiate = Instantiate(buttonPrefab, buttonPrefab.transform.position + i++ * offset * Vector3.down, Quaternion.identity);
+		    var instantiate = Instantiate(buttonPrefab, ori.transform.position + i++ * offset * Vector3.down, Quaternion.identity);
 		    instantiate.transform.SetParent(gameObject.transform);
 		    int k = i;
 		    instantiate.GetComponentInChildren<Button>().onClick.AddListener(()=>wfc.ButtonPress(k));

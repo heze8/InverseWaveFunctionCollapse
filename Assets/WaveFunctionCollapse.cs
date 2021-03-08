@@ -10,6 +10,8 @@ using Random = UnityEngine.Random;
 public class WaveFunctionCollapse : MonoBehaviour
 {
 	#region Public Fields
+	public bool debug;
+	public GameObject debugObj;
 
     public List<Tile> tiles;
     private AdjacencyRules adjRules;
@@ -131,14 +133,14 @@ public class WaveFunctionCollapse : MonoBehaviour
  
     void Start()
     {
-		BeginProcess();
+		//BeginProcess();
     }
     
     #endregion
 
     public void Begin()
     {
-	    BeginProcess();
+	    BeginProcess();		
     }
     public void ButtonPress(int i)
     {
@@ -325,6 +327,10 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    Tile tile = tiles[tileIndex];
 	    var coor = nextCoor.coor;
 	    Vector3 pos = new Vector3(coor.x * tileSize.x, coor.z * tileSize.y, coor.y * tileSize.z);
+        if (debug)
+        {
+			Instantiate(debugObj, pos, Quaternion.identity);
+        }
 	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.identity);
 	    
 	    for (int i = 0; i < tiles.Count; i++)
