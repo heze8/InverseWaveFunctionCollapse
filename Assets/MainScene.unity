@@ -18268,7 +18268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &521603033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53552,6 +53552,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3dcbf8ce78a5eaa4ab5134868163b1e5, type: 2}
   - {fileID: 11400000, guid: 7a01ded055214ca49b5ff119bb0c7f8f, type: 2}
   - {fileID: 11400000, guid: 28f547d54506576438a0adc331cbe316, type: 2}
+  - {fileID: 11400000, guid: 839c6e97c980de24c8bb94c8b22a91c2, type: 2}
+  - {fileID: 11400000, guid: 3369c844a0c441149b4d1afcc0821895, type: 2}
   - {fileID: 11400000, guid: 839c6e97c980de24c8bb94c8b22a91c2, type: 2}
   tileSize: {x: 15, y: 20, z: 15}
   gridSize: {x: 3, y: 3, z: 2}
