@@ -213,7 +213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170715094803154
 Transform:
   m_ObjectHideFlags: 0
@@ -311,7 +311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170714955270305
 Transform:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170715672048055
 Transform:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170715578276588
 Transform:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170715570348395
 Transform:
   m_ObjectHideFlags: 0
@@ -1487,7 +1487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170716270258899
 Transform:
   m_ObjectHideFlags: 0
@@ -1585,7 +1585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170716731684005
 Transform:
   m_ObjectHideFlags: 0
@@ -1879,7 +1879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7959170716997985454
 Transform:
   m_ObjectHideFlags: 0
@@ -1959,6 +1959,102 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 163caee830db7a446aad375fa54b1017, type: 2}
+--- !u!1 &800636193326868981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5448959652960771779}
+  - component: {fileID: 6246096894993653033}
+  - component: {fileID: 6726864304063634847}
+  - component: {fileID: 953495046090802986}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5448959652960771779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800636193326868981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.21, y: 16.11, z: -3.43}
+  m_LocalScale: {x: 2.0305, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509869558368607595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6246096894993653033
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800636193326868981}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6726864304063634847
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800636193326868981}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2c0bb951fb8a2e44a9fb35bc4af3d739, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &953495046090802986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800636193326868981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &811393760635298572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2937,7 +3033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9115533678866930219
 Transform:
   m_ObjectHideFlags: 0
@@ -3131,7 +3227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9115533678563297228
 Transform:
   m_ObjectHideFlags: 0
@@ -3907,7 +4003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9115533679223229363
 Transform:
   m_ObjectHideFlags: 0
@@ -4295,7 +4391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9115533679693569018
 Transform:
   m_ObjectHideFlags: 0
@@ -4812,6 +4908,7 @@ Transform:
   - {fileID: 2162837275722241716}
   - {fileID: 1651282538553899673}
   - {fileID: 2474861468952717510}
+  - {fileID: 8217761527698107944}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -5225,6 +5322,8 @@ Transform:
   - {fileID: 3192516600021401035}
   - {fileID: 1354390650370577978}
   - {fileID: 1626011861042956795}
+  - {fileID: 2411779662015697655}
+  - {fileID: 8750262083026624672}
   m_Father: {fileID: 1929808040334796800}
   m_RootOrder: 410
   m_LocalEulerAnglesHint: {x: 0, y: 269.70502, z: 0}
@@ -5540,7 +5639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931784918989
 Transform:
   m_ObjectHideFlags: 0
@@ -5636,7 +5735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931768300036
 Transform:
   m_ObjectHideFlags: 0
@@ -5828,7 +5927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931764190092
 Transform:
   m_ObjectHideFlags: 0
@@ -6020,7 +6119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931873240131
 Transform:
   m_ObjectHideFlags: 0
@@ -6125,8 +6224,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3174772042121080166}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.00000047683716, y: 16.5, z: 5.0000014}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.7704, y: -0.37, z: 4.1276}
+  m_LocalScale: {x: 4.651616, y: 1, z: 5.0561}
   m_Children: []
   m_Father: {fileID: 2474861468952717510}
   m_RootOrder: 295
@@ -6212,7 +6311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931853143496
 Transform:
   m_ObjectHideFlags: 0
@@ -6308,7 +6407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931846878238
 Transform:
   m_ObjectHideFlags: 0
@@ -6500,7 +6599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931943206506
 Transform:
   m_ObjectHideFlags: 0
@@ -6596,7 +6695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931922244954
 Transform:
   m_ObjectHideFlags: 0
@@ -6692,7 +6791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932012542507
 Transform:
   m_ObjectHideFlags: 0
@@ -6788,7 +6887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932011090557
 Transform:
   m_ObjectHideFlags: 0
@@ -6980,7 +7079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931990422029
 Transform:
   m_ObjectHideFlags: 0
@@ -7076,7 +7175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931962479410
 Transform:
   m_ObjectHideFlags: 0
@@ -7268,7 +7367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931531068961
 Transform:
   m_ObjectHideFlags: 0
@@ -7460,7 +7559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931548244174
 Transform:
   m_ObjectHideFlags: 0
@@ -7844,7 +7943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931638081859
 Transform:
   m_ObjectHideFlags: 0
@@ -7940,7 +8039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931722902046
 Transform:
   m_ObjectHideFlags: 0
@@ -8036,7 +8135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931713665694
 Transform:
   m_ObjectHideFlags: 0
@@ -8324,7 +8423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931702917410
 Transform:
   m_ObjectHideFlags: 0
@@ -8420,7 +8519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931696309289
 Transform:
   m_ObjectHideFlags: 0
@@ -8516,7 +8615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932351520173
 Transform:
   m_ObjectHideFlags: 0
@@ -8612,7 +8711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932340106029
 Transform:
   m_ObjectHideFlags: 0
@@ -8804,7 +8903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932326766826
 Transform:
   m_ObjectHideFlags: 0
@@ -8900,7 +8999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932323862521
 Transform:
   m_ObjectHideFlags: 0
@@ -8996,7 +9095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932316800395
 Transform:
   m_ObjectHideFlags: 0
@@ -9092,7 +9191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932297107671
 Transform:
   m_ObjectHideFlags: 0
@@ -9188,7 +9287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932411165247
 Transform:
   m_ObjectHideFlags: 0
@@ -9284,7 +9383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932389699917
 Transform:
   m_ObjectHideFlags: 0
@@ -9380,7 +9479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932480971665
 Transform:
   m_ObjectHideFlags: 0
@@ -9476,7 +9575,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932445062712
 Transform:
   m_ObjectHideFlags: 0
@@ -9764,7 +9863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932531382919
 Transform:
   m_ObjectHideFlags: 0
@@ -9956,7 +10055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932066477313
 Transform:
   m_ObjectHideFlags: 0
@@ -10148,7 +10247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932038678738
 Transform:
   m_ObjectHideFlags: 0
@@ -10244,7 +10343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932037722140
 Transform:
   m_ObjectHideFlags: 0
@@ -10340,7 +10439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932029471305
 Transform:
   m_ObjectHideFlags: 0
@@ -10436,7 +10535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932021451627
 Transform:
   m_ObjectHideFlags: 0
@@ -10532,7 +10631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932143395680
 Transform:
   m_ObjectHideFlags: 0
@@ -10628,7 +10727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932124886478
 Transform:
   m_ObjectHideFlags: 0
@@ -11108,7 +11207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932212697713
 Transform:
   m_ObjectHideFlags: 0
@@ -11204,7 +11303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932202799367
 Transform:
   m_ObjectHideFlags: 0
@@ -11300,7 +11399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932183938560
 Transform:
   m_ObjectHideFlags: 0
@@ -11396,7 +11495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932178294249
 Transform:
   m_ObjectHideFlags: 0
@@ -11492,7 +11591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932171987011
 Transform:
   m_ObjectHideFlags: 0
@@ -11588,7 +11687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932161314158
 Transform:
   m_ObjectHideFlags: 0
@@ -11780,7 +11879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932281977352
 Transform:
   m_ObjectHideFlags: 0
@@ -11876,7 +11975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114932275810951
 Transform:
   m_ObjectHideFlags: 0
@@ -12068,7 +12167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930739754472
 Transform:
   m_ObjectHideFlags: 0
@@ -12164,7 +12263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930737619157
 Transform:
   m_ObjectHideFlags: 0
@@ -12260,7 +12359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930715853767
 Transform:
   m_ObjectHideFlags: 0
@@ -12356,7 +12455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930713806176
 Transform:
   m_ObjectHideFlags: 0
@@ -12548,7 +12647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930699070231
 Transform:
   m_ObjectHideFlags: 0
@@ -12740,7 +12839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930798922649
 Transform:
   m_ObjectHideFlags: 0
@@ -12932,7 +13031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930751817200
 Transform:
   m_ObjectHideFlags: 0
@@ -13124,7 +13223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930812487518
 Transform:
   m_ObjectHideFlags: 0
@@ -13220,7 +13319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930941532223
 Transform:
   m_ObjectHideFlags: 0
@@ -13316,7 +13415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930925535115
 Transform:
   m_ObjectHideFlags: 0
@@ -13412,7 +13511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930907286706
 Transform:
   m_ObjectHideFlags: 0
@@ -13700,7 +13799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930891903960
 Transform:
   m_ObjectHideFlags: 0
@@ -13988,7 +14087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930431792916
 Transform:
   m_ObjectHideFlags: 0
@@ -14084,7 +14183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930431254427
 Transform:
   m_ObjectHideFlags: 0
@@ -14180,7 +14279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930422745431
 Transform:
   m_ObjectHideFlags: 0
@@ -14948,7 +15047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930602865042
 Transform:
   m_ObjectHideFlags: 0
@@ -15140,7 +15239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930586271668
 Transform:
   m_ObjectHideFlags: 0
@@ -15236,7 +15335,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930541190810
 Transform:
   m_ObjectHideFlags: 0
@@ -15428,7 +15527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930652663753
 Transform:
   m_ObjectHideFlags: 0
@@ -15524,7 +15623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930639723996
 Transform:
   m_ObjectHideFlags: 0
@@ -15620,7 +15719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930633204267
 Transform:
   m_ObjectHideFlags: 0
@@ -15812,7 +15911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930615921512
 Transform:
   m_ObjectHideFlags: 0
@@ -16196,7 +16295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931242649072
 Transform:
   m_ObjectHideFlags: 0
@@ -16388,7 +16487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931328683360
 Transform:
   m_ObjectHideFlags: 0
@@ -16580,7 +16679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931404494087
 Transform:
   m_ObjectHideFlags: 0
@@ -16772,7 +16871,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931393789777
 Transform:
   m_ObjectHideFlags: 0
@@ -16964,7 +17063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931347006543
 Transform:
   m_ObjectHideFlags: 0
@@ -17060,7 +17159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931460723377
 Transform:
   m_ObjectHideFlags: 0
@@ -17156,7 +17255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931432900169
 Transform:
   m_ObjectHideFlags: 0
@@ -17252,7 +17351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931006997785
 Transform:
   m_ObjectHideFlags: 0
@@ -17348,7 +17447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930997481497
 Transform:
   m_ObjectHideFlags: 0
@@ -17444,7 +17543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930991489372
 Transform:
   m_ObjectHideFlags: 0
@@ -17540,7 +17639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930979071991
 Transform:
   m_ObjectHideFlags: 0
@@ -17636,7 +17735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930950979395
 Transform:
   m_ObjectHideFlags: 0
@@ -17732,7 +17831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114930943199081
 Transform:
   m_ObjectHideFlags: 0
@@ -17828,7 +17927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931065733015
 Transform:
   m_ObjectHideFlags: 0
@@ -18020,7 +18119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931013041967
 Transform:
   m_ObjectHideFlags: 0
@@ -18116,7 +18215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931133033051
 Transform:
   m_ObjectHideFlags: 0
@@ -18212,7 +18311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931077449234
 Transform:
   m_ObjectHideFlags: 0
@@ -18308,7 +18407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931178194245
 Transform:
   m_ObjectHideFlags: 0
@@ -18404,7 +18503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7039114931149650088
 Transform:
   m_ObjectHideFlags: 0
@@ -20246,7 +20345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6383649451548184147
 Transform:
   m_ObjectHideFlags: 0
@@ -20441,7 +20540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299123992840207840
 Transform:
   m_ObjectHideFlags: 0
@@ -20537,7 +20636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299123993192657927
 Transform:
   m_ObjectHideFlags: 0
@@ -21704,7 +21803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1626011860689352811
 Transform:
   m_ObjectHideFlags: 0
@@ -22274,7 +22373,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1626011861042956795
 Transform:
   m_ObjectHideFlags: 0
@@ -22749,7 +22848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650592686130
 Transform:
   m_ObjectHideFlags: 0
@@ -22846,7 +22945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650555762121
 Transform:
   m_ObjectHideFlags: 0
@@ -23040,7 +23139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650370577978
 Transform:
   m_ObjectHideFlags: 0
@@ -23137,7 +23236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650802521519
 Transform:
   m_ObjectHideFlags: 0
@@ -23234,7 +23333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650655045252
 Transform:
   m_ObjectHideFlags: 0
@@ -23331,7 +23430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650639799862
 Transform:
   m_ObjectHideFlags: 0
@@ -23428,7 +23527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390650179683697
 Transform:
   m_ObjectHideFlags: 0
@@ -23525,7 +23624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390648823246321
 Transform:
   m_ObjectHideFlags: 0
@@ -23622,7 +23721,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354390648829521172
 Transform:
   m_ObjectHideFlags: 0
@@ -23719,7 +23818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114176709242715
 Transform:
   m_ObjectHideFlags: 0
@@ -23814,7 +23913,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114176738851988
 Transform:
   m_ObjectHideFlags: 0
@@ -23909,7 +24008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114176492657448
 Transform:
   m_ObjectHideFlags: 0
@@ -24099,7 +24198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114177270958906
 Transform:
   m_ObjectHideFlags: 0
@@ -24384,7 +24483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114175908734683
 Transform:
   m_ObjectHideFlags: 0
@@ -24479,7 +24578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6982114176040258223
 Transform:
   m_ObjectHideFlags: 0
@@ -25251,7 +25350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600360776178
 Transform:
   m_ObjectHideFlags: 0
@@ -25347,7 +25446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600366466701
 Transform:
   m_ObjectHideFlags: 0
@@ -25635,7 +25734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600455277441
 Transform:
   m_ObjectHideFlags: 0
@@ -25731,7 +25830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600541349590
 Transform:
   m_ObjectHideFlags: 0
@@ -25827,7 +25926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600555935578
 Transform:
   m_ObjectHideFlags: 0
@@ -26019,7 +26118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600525356483
 Transform:
   m_ObjectHideFlags: 0
@@ -26211,7 +26310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600623171323
 Transform:
   m_ObjectHideFlags: 0
@@ -26499,7 +26598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600120784071
 Transform:
   m_ObjectHideFlags: 0
@@ -26595,7 +26694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600110379750
 Transform:
   m_ObjectHideFlags: 0
@@ -26691,7 +26790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600194952417
 Transform:
   m_ObjectHideFlags: 0
@@ -26787,7 +26886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600193560800
 Transform:
   m_ObjectHideFlags: 0
@@ -27363,7 +27462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600180628739
 Transform:
   m_ObjectHideFlags: 0
@@ -27555,7 +27654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600266987994
 Transform:
   m_ObjectHideFlags: 0
@@ -27651,7 +27750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600265052038
 Transform:
   m_ObjectHideFlags: 0
@@ -28035,7 +28134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599876379495
 Transform:
   m_ObjectHideFlags: 0
@@ -28131,7 +28230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599842742293
 Transform:
   m_ObjectHideFlags: 0
@@ -28227,7 +28326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599940098613
 Transform:
   m_ObjectHideFlags: 0
@@ -28707,7 +28806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599914765511
 Transform:
   m_ObjectHideFlags: 0
@@ -28995,7 +29094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599992307383
 Transform:
   m_ObjectHideFlags: 0
@@ -29475,7 +29574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600062929313
 Transform:
   m_ObjectHideFlags: 0
@@ -29571,7 +29670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600085565189
 Transform:
   m_ObjectHideFlags: 0
@@ -29667,7 +29766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600076591744
 Transform:
   m_ObjectHideFlags: 0
@@ -29763,7 +29862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516600034286098
 Transform:
   m_ObjectHideFlags: 0
@@ -30147,7 +30246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599629265229
 Transform:
   m_ObjectHideFlags: 0
@@ -30339,7 +30438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599727619238
 Transform:
   m_ObjectHideFlags: 0
@@ -30435,7 +30534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599711925344
 Transform:
   m_ObjectHideFlags: 0
@@ -30531,7 +30630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599712048606
 Transform:
   m_ObjectHideFlags: 0
@@ -30723,7 +30822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599352348444
 Transform:
   m_ObjectHideFlags: 0
@@ -30819,7 +30918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599343648037
 Transform:
   m_ObjectHideFlags: 0
@@ -31107,7 +31206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599374367580
 Transform:
   m_ObjectHideFlags: 0
@@ -31491,7 +31590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599450198866
 Transform:
   m_ObjectHideFlags: 0
@@ -31587,7 +31686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599530626689
 Transform:
   m_ObjectHideFlags: 0
@@ -31683,7 +31782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599537796667
 Transform:
   m_ObjectHideFlags: 0
@@ -31971,7 +32070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599494888546
 Transform:
   m_ObjectHideFlags: 0
@@ -32451,7 +32550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599194605939
 Transform:
   m_ObjectHideFlags: 0
@@ -32835,7 +32934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599225117803
 Transform:
   m_ObjectHideFlags: 0
@@ -33411,7 +33510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598878006744
 Transform:
   m_ObjectHideFlags: 0
@@ -33603,7 +33702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598927017833
 Transform:
   m_ObjectHideFlags: 0
@@ -33795,7 +33894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598913782107
 Transform:
   m_ObjectHideFlags: 0
@@ -33891,7 +33990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516599017256762
 Transform:
   m_ObjectHideFlags: 0
@@ -34179,7 +34278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598543212331
 Transform:
   m_ObjectHideFlags: 0
@@ -34275,7 +34374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598504426788
 Transform:
   m_ObjectHideFlags: 0
@@ -34659,7 +34758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598578977073
 Transform:
   m_ObjectHideFlags: 0
@@ -34755,7 +34854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598568662133
 Transform:
   m_ObjectHideFlags: 0
@@ -34947,7 +35046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598621605684
 Transform:
   m_ObjectHideFlags: 0
@@ -35043,7 +35142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598737013072
 Transform:
   m_ObjectHideFlags: 0
@@ -35331,7 +35430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3192516598710911454
 Transform:
   m_ObjectHideFlags: 0
@@ -35601,6 +35700,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.44576418, y: 3.9999998, z: 1.9999999}
   m_Center: {x: 0.04234589, y: 2.000001, z: 1}
+--- !u!1 &6938703797364694491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2411779662015697655}
+  - component: {fileID: 4023131722302826136}
+  - component: {fileID: 795573083817552061}
+  - component: {fileID: 3621974992877614118}
+  m_Layer: 0
+  m_Name: Building_A_Roof_01a_snaps020 (175)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &2411779662015697655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938703797364694491}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00000047683716, y: 16.5, z: 5.0000014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2474861468952717510}
+  m_RootOrder: 383
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &4023131722302826136
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938703797364694491}
+  m_Mesh: {fileID: 4300000, guid: 8fff004e1f1d1ab4dafd1ddad4e7f555, type: 2}
+--- !u!23 &795573083817552061
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938703797364694491}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4f6a32ae4320c1d489759d620e71be9b, type: 2}
+  - {fileID: 2100000, guid: 8621dfcb3dbf229428e45425021e0875, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 2
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3621974992877614118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938703797364694491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.141422, y: 0.4750003, z: 2.1414256}
+  m_Center: {x: -0.99999696, y: 0.23700668, z: 0.99999994}
 --- !u!1 &7323234395992326838
 GameObject:
   m_ObjectHideFlags: 0
@@ -35924,7 +36119,8 @@ Transform:
   m_LocalRotation: {x: -3.552714e-15, y: -0.000000059604645, z: 0.0000000218557, w: 1}
   m_LocalPosition: {x: -24.500021, y: 11.994999, z: 12.500008}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 5448959652960771779}
   m_Father: {fileID: 2474861468952717510}
   m_RootOrder: 135
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36109,7 +36305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1509869559812092210
 Transform:
   m_ObjectHideFlags: 0
@@ -36403,7 +36599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1509869559374938517
 Transform:
   m_ObjectHideFlags: 0
@@ -37263,6 +37459,102 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1d5933e4e17ca5247a9b43bf72f71c58, type: 2}
+--- !u!1 &7606432504395957826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8750262083026624672}
+  - component: {fileID: 8976343001068816928}
+  - component: {fileID: 1784114938832165517}
+  - component: {fileID: 6985586919742052414}
+  m_Layer: 0
+  m_Name: Building_A_Roof_01a_snaps020 (182)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &8750262083026624672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606432504395957826}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -25.441, y: -0.37, z: 4.0399}
+  m_LocalScale: {x: 4.651616, y: 1, z: 10.69202}
+  m_Children: []
+  m_Father: {fileID: 2474861468952717510}
+  m_RootOrder: 384
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &8976343001068816928
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606432504395957826}
+  m_Mesh: {fileID: 4300000, guid: 8fff004e1f1d1ab4dafd1ddad4e7f555, type: 2}
+--- !u!23 &1784114938832165517
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606432504395957826}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4f6a32ae4320c1d489759d620e71be9b, type: 2}
+  - {fileID: 2100000, guid: 8621dfcb3dbf229428e45425021e0875, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 2
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6985586919742052414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606432504395957826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.141422, y: 0.4750003, z: 2.1414256}
+  m_Center: {x: -0.99999696, y: 0.23700668, z: 0.99999994}
 --- !u!1 &7711983946090228131
 GameObject:
   m_ObjectHideFlags: 0
@@ -37377,7 +37669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7711983947176565029
 Transform:
   m_ObjectHideFlags: 0
@@ -38332,7 +38624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4215486444730718687
 Transform:
   m_ObjectHideFlags: 0
@@ -38617,7 +38909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4215486443912118136
 Transform:
   m_ObjectHideFlags: 0
@@ -38712,7 +39004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4215486443951523087
 Transform:
   m_ObjectHideFlags: 0
@@ -39426,6 +39718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 273
@@ -39550,6 +39846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 377
@@ -39656,6 +39956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
 --- !u!4 &6374005852356610665 stripped
@@ -39735,6 +40039,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -39966,6 +40274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170372247360 stripped
@@ -40028,6 +40340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170369857820 stripped
@@ -40045,6 +40361,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -40213,6 +40533,10 @@ PrefabInstance:
     - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
@@ -40480,6 +40804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 306
@@ -40603,6 +40931,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (225)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -40728,6 +41060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 211
@@ -40834,6 +41170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
 --- !u!4 &3052231402432803060 stripped
@@ -40851,6 +41191,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -40958,6 +41302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170443231270 stripped
@@ -41019,6 +41367,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -41082,6 +41434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170388585925 stripped
@@ -41099,6 +41455,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -41285,6 +41645,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -41516,6 +41880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
 --- !u!4 &3052231402655422204 stripped
@@ -41702,6 +42070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Metal_02b_snaps020 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7775081175308523874, guid: 8762b62606e79b248bcb3b83154b5c1b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8762b62606e79b248bcb3b83154b5c1b, type: 3}
 --- !u!4 &3314849956013721917 stripped
@@ -41719,6 +42091,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -41843,6 +42219,10 @@ PrefabInstance:
     - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Wall_02b_snaps020 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6690265408096405745, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_RootOrder
@@ -42012,6 +42392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
 --- !u!4 &6374005852485002781 stripped
@@ -42091,6 +42475,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -42215,6 +42603,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (214)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -42508,6 +42900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170460942880 stripped
@@ -42632,6 +43028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170450539521 stripped
@@ -42649,6 +43049,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -43003,6 +43407,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -43376,6 +43784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Wall_02a_snaps020 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
 --- !u!4 &3198775135102644724 stripped
@@ -43518,6 +43930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -43579,6 +43995,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -43686,6 +44106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
 --- !u!4 &3052231402693231977 stripped
@@ -43703,6 +44127,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (222)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -43810,6 +44238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170617255836 stripped
@@ -43827,6 +44259,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (242)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -43934,6 +44370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170631767568 stripped
@@ -43951,6 +44391,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -44014,6 +44458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 192
@@ -44075,6 +44523,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -44181,6 +44633,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -44802,6 +45258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
 --- !u!4 &3052231402924644080 stripped
@@ -44863,6 +45323,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -45072,6 +45536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 207
@@ -45178,6 +45646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
 --- !u!4 &3052231402906203714 stripped
@@ -45257,6 +45729,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -45382,6 +45858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 365
@@ -45505,6 +45985,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -45630,6 +46114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -45691,6 +46179,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -45878,6 +46370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -45984,6 +46480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170738034251 stripped
@@ -46045,6 +46545,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -46125,6 +46629,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -46250,6 +46758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (238)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -46311,6 +46823,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -46436,6 +46952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (235)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -46560,6 +47080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 260
@@ -46621,6 +47145,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (206)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -46852,6 +47380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Metal_02b_snaps020 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7775081175308523874, guid: 8762b62606e79b248bcb3b83154b5c1b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8762b62606e79b248bcb3b83154b5c1b, type: 3}
 --- !u!4 &3314849956301813933 stripped
@@ -46869,6 +47401,10 @@ PrefabInstance:
     - target: {fileID: 1945845773533370181, guid: 9979be57357f4794e84252af5653108d, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01a_snaps020 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945845773533370181, guid: 9979be57357f4794e84252af5653108d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8849360230476817513, guid: 9979be57357f4794e84252af5653108d, type: 3}
       propertyPath: m_RootOrder
@@ -46975,6 +47511,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -47117,6 +47657,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (232)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -47286,6 +47830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170859267352 stripped
@@ -47347,6 +47895,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -47490,6 +48042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (227)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 181
@@ -47551,6 +48107,10 @@ PrefabInstance:
     - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Wall_02b_snaps020 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6690265408096405745, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_RootOrder
@@ -47676,6 +48236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -47737,6 +48301,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -47924,6 +48492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -47985,6 +48557,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (244)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -48092,6 +48668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762170940488075 stripped
@@ -48109,6 +48689,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (210)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -48420,6 +49004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -48481,6 +49069,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (218)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -48836,6 +49428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171098112582 stripped
@@ -48853,6 +49449,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -49022,6 +49622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171085983683 stripped
@@ -49145,6 +49749,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -49331,6 +49939,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -49580,6 +50192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Wall_02a_snaps020 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
 --- !u!4 &3198775135609504083 stripped
@@ -49765,6 +50381,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -50218,6 +50838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -50279,6 +50903,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -50527,6 +51155,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -50820,6 +51452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171234151155 stripped
@@ -50837,6 +51473,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -51006,6 +51646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171192302593 stripped
@@ -51147,6 +51791,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -51378,6 +52026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171296228257 stripped
@@ -51457,6 +52109,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (236)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -51750,6 +52406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171262755027 stripped
@@ -51811,6 +52471,10 @@ PrefabInstance:
     - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
@@ -51953,6 +52617,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (212)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -52183,6 +52851,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -52636,6 +53308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (219)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -52803,6 +53479,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -53052,6 +53732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Metal_02a_snaps020 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6349027195473497802, guid: 3a27a78590619e64882570107d64e01e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a27a78590619e64882570107d64e01e, type: 3}
 --- !u!4 &148651510258293017 stripped
@@ -53069,6 +53753,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -53193,6 +53881,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -53566,6 +54258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (217)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -53814,6 +54510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -53876,6 +54576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (231)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -53937,6 +54641,10 @@ PrefabInstance:
     - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
@@ -54123,6 +54831,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (240)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -54416,6 +55128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171637417725 stripped
@@ -54477,6 +55193,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -54664,6 +55384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171611122852 stripped
@@ -54681,6 +55405,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (233)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -54930,6 +55658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (216)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 339
@@ -54991,6 +55723,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (221)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -55302,6 +56038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (234)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -55408,6 +56148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171654775700 stripped
@@ -55425,6 +56169,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (229)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -55612,6 +56360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (226)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -55674,6 +56426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (224)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 266
@@ -55735,6 +56491,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -55842,6 +56602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171733740442 stripped
@@ -55921,6 +56685,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -56027,6 +56795,10 @@ PrefabInstance:
     - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
@@ -56276,6 +57048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171829013987 stripped
@@ -56400,6 +57176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171820773338 stripped
@@ -56417,6 +57197,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (213)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -56790,6 +57574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
       value: 146
@@ -56851,6 +57639,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -56958,6 +57750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171897661846 stripped
@@ -56975,6 +57771,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -57454,6 +58254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171858813208 stripped
@@ -57596,6 +58400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Wall_02b_snaps020 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6690265408096405745, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -57719,6 +58527,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -58030,6 +58842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (230)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -58154,6 +58970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -58215,6 +59035,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (201)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -58322,6 +59146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762171945963506 stripped
@@ -58339,6 +59167,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (223)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -58401,6 +59233,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -58650,6 +59486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (239)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -58755,6 +59595,10 @@ PrefabInstance:
     - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
@@ -58897,6 +59741,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -59084,6 +59932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -59189,6 +60041,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -59313,6 +60169,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -59456,6 +60316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (228)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -59517,6 +60381,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -59623,6 +60491,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -59748,6 +60620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762172063665634 stripped
@@ -59809,6 +60685,10 @@ PrefabInstance:
     - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
@@ -59933,6 +60813,10 @@ PrefabInstance:
     - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01b_snaps020 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551786916120047019, guid: d33ce6e3543d81d4d872932446063989, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33ce6e3543d81d4d872932446063989, type: 3}
@@ -60120,6 +61004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762172156934140 stripped
@@ -60199,6 +61087,10 @@ PrefabInstance:
     - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Wall_02b_snaps020 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963242766318027569, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6690265408096405745, guid: 350c2526fbaaa94448d0d232c8b154ac, type: 3}
       propertyPath: m_RootOrder
@@ -60492,6 +61384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Door_Frame_01a_With_Door_snaps020 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7185793430391086912, guid: 1e73baee0a4dcb347aca6660420af6ae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e73baee0a4dcb347aca6660420af6ae, type: 3}
 --- !u!4 &4374900671223706817 stripped
@@ -60700,6 +61596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01a_snaps020 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3149791744515638426, guid: 8def56956581eb742bbffbce2934211f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5489007221111097264, guid: 8def56956581eb742bbffbce2934211f, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -60761,6 +61661,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (241)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -60948,6 +61852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (243)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 289
@@ -61009,6 +61917,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (196)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -61240,6 +62152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Metal_02a_snaps020 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6349027195473497802, guid: 3a27a78590619e64882570107d64e01e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a27a78590619e64882570107d64e01e, type: 3}
 --- !u!4 &148651510569878985 stripped
@@ -61301,6 +62217,10 @@ PrefabInstance:
     - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
@@ -61488,6 +62408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762172191707549 stripped
@@ -61549,6 +62473,10 @@ PrefabInstance:
     - target: {fileID: 6349027195473497802, guid: 3a27a78590619e64882570107d64e01e, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Metal_02a_snaps020 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349027195473497802, guid: 3a27a78590619e64882570107d64e01e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a27a78590619e64882570107d64e01e, type: 3}
@@ -61629,6 +62557,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -61860,6 +62792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Wall_01d_snaps020 (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 8842567838701482148, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d6d08997bf5144a9e30e1f314453a6, type: 3}
 --- !u!4 &1503762172294606110 stripped
@@ -62064,6 +63000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (237)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -62187,6 +63127,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -62312,6 +63256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (194)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -62417,6 +63365,10 @@ PrefabInstance:
     - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
@@ -62732,6 +63684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Lamp_Holder_01b_snaps020 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7544810251378059266, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55831795a55fa444b39155d3d1114e4, type: 3}
 --- !u!4 &6374005852291624861 stripped
@@ -62811,6 +63767,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -62936,6 +63896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
       value: 296
@@ -63059,6 +64023,10 @@ PrefabInstance:
     - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_Name
       value: Building_A_Roof_01a_snaps020 (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033425751076785955, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897537981701827598, guid: 4ec8878b64a4c3048a25cb92eff84120, type: 3}
       propertyPath: m_RootOrder
@@ -63661,6 +64629,10 @@ PrefabInstance:
     - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Wall_02a_snaps020 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
@@ -64282,6 +65254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Additional_Wall_02a_snaps020 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
 --- !u!4 &6526677293118095514 stripped
@@ -64351,6 +65327,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3939624076799636865, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
   m_PrefabInstance: {fileID: 8080630361705013046}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8503486473622223519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1929808040334796800}
+    m_Modifications:
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 411
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.6829526
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5085523
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934390982728174579, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+      propertyPath: m_Name
+      value: Plane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+--- !u!4 &8217761527698107944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 290809233828893879, guid: 2d283cfbe1e0946489f7e13aa129d0a8, type: 3}
+  m_PrefabInstance: {fileID: 8503486473622223519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9009518228819117053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64405,6 +65451,10 @@ PrefabInstance:
     - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
       propertyPath: m_Name
       value: Building_Additional_Wall_02a_snaps020 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186215507053605553, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d074b0d3d4c96f469f23e36107af031, type: 3}

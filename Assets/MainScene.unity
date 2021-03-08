@@ -18268,7 +18268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &521603033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53545,12 +53545,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5fe8a68136e9834fa29480ff3603724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debug: 1
+  debug: 0
   debugObj: {fileID: 2575889067204098473, guid: 662739fbf00674e4bbde9c22448ce8f6, type: 3}
   tiles:
+  - {fileID: 11400000, guid: e742d475055cad84eb9ad0ca41f938c5, type: 2}
+  - {fileID: 11400000, guid: 3dcbf8ce78a5eaa4ab5134868163b1e5, type: 2}
+  - {fileID: 11400000, guid: 7a01ded055214ca49b5ff119bb0c7f8f, type: 2}
   - {fileID: 11400000, guid: 28f547d54506576438a0adc331cbe316, type: 2}
-  tileSize: {x: 20, y: 20, z: 20}
-  gridSize: {x: 3, y: 3, z: 1}
+  - {fileID: 11400000, guid: 839c6e97c980de24c8bb94c8b22a91c2, type: 2}
+  tileSize: {x: 15, y: 20, z: 15}
+  gridSize: {x: 3, y: 3, z: 2}
 --- !u!4 &1647543804
 Transform:
   m_ObjectHideFlags: 0

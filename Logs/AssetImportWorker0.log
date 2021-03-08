@@ -2208,3 +2208,2107 @@ Received Import Request.
 Start importing Assets/Tileset2/Cube (89).prefab using Guid(445545e7310a99647b406802398bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a081d8053715adce9754f0870dcf8776') in 0.036508 seconds
   Import took 0.039882 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 1.782300 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.501800 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1482.923310 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d8b3bc2aa2d5313bd203c02e5321b6') in 0.092792 seconds
+  Import took 0.097813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.539328 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90dfa0d61572f147027d39316df8660') in 0.065561 seconds
+  Import took 0.072406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.033664 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06e69dc2ec234864a29c23acf8b462d') in 0.056584 seconds
+  Import took 0.062445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.948349 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ab0edde9997657503596d6d792903c') in 0.050203 seconds
+  Import took 0.055816 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 2.831100 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.045800 ms MarkObjects: 2.505300 ms  DeleteObjects: 0.063900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.784683 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be43f31503be2e09894eb039e8e15a91') in 0.095278 seconds
+  Import took 0.101189 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 6.554100 ms (FindLiveObjects: 0.460700 ms CreateObjectMapping: 0.189900 ms MarkObjects: 5.726800 ms  DeleteObjects: 0.173400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.639094 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395eff7c56639625f49f94dfa0965756') in 0.077323 seconds
+  Import took 0.083171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.001697 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9d2694fc082355d8348d50514e7ca') in 0.044360 seconds
+  Import took 0.048914 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 2.284600 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.903200 ms  DeleteObjects: 0.085000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.707556 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b298768ddf24701a69f3f7c91206eeb9') in 0.100298 seconds
+  Import took 0.106289 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 2.350600 ms (FindLiveObjects: 0.155400 ms CreateObjectMapping: 0.042900 ms MarkObjects: 2.073200 ms  DeleteObjects: 0.078400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.715234 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a111b734a8568266ec382aad00f07c07') in 0.111625 seconds
+  Import took 0.117677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.360536 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de781118e59a288ea72f14b38110a89') in 0.069064 seconds
+  Import took 0.074800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.132704 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2301ba4133075ded15d89f9dcb1991ba') in 0.065820 seconds
+  Import took 0.072889 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.521100 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.185700 ms  DeleteObjects: 0.060100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.484789 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8002ed506e77909ec6734b9b55ae1d19') in 0.100303 seconds
+  Import took 0.106174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.785104 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613815e3fc245e3a181e825480d9789') in 0.062744 seconds
+  Import took 0.069204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.516573 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c843ee91efeb2b58fc431b635d761d') in 0.064093 seconds
+  Import took 0.069917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.166589 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55b429b85534a881e73317d743aa36f') in 0.063961 seconds
+  Import took 0.070091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.157350 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7e5617b6b029401cd0b0a2977fd321') in 0.071819 seconds
+  Import took 0.078731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.529437 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2e92e61498fa4eab1b699c5c282f7') in 0.061892 seconds
+  Import took 0.066931 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2083.
+Total: 1.695100 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.437500 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.942114 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b9baa60240933b99f4d9b00cac4365') in 0.071738 seconds
+  Import took 0.076018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.539755 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1ea9e2e4b9f9ed71285e57c14c2474') in 0.043795 seconds
+  Import took 0.048277 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 2.054400 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.805100 ms  DeleteObjects: 0.054300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 1.898500 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.542700 ms  DeleteObjects: 0.107600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1073.378240 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6c8736f37e038bd6547bd5bf7755e') in 0.121586 seconds
+  Import took 0.128714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.647204 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6265acd1ed660301e2d98c7262921') in 0.073046 seconds
+  Import took 0.079125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.414806 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06acd7b80919c853e69105dfd40375a') in 0.071549 seconds
+  Import took 0.077555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.427661 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb9d8518d78bb8bc79131e18a51b441') in 0.074019 seconds
+  Import took 0.080082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825956 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e19770225dfec9284faf70e701bb3ae') in 0.079423 seconds
+  Import took 0.086743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.028295 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9346c96c2c0ba7610fc1b53697ce6162') in 0.075724 seconds
+  Import took 0.081573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.228420 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0b63ac493e14505dc9d21b7ad4fd8e') in 0.072584 seconds
+  Import took 0.078498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.220358 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4e56978ecc59ac13af0cbabea71f85') in 0.072791 seconds
+  Import took 0.078841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.422738 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7af3c9f789f22ea4a21d4a5e1508bd') in 0.080187 seconds
+  Import took 0.087495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.230532 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5184040f2d51f5c4608329aba26ed5') in 0.080879 seconds
+  Import took 0.086829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754087 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat
+  artifactKey: Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat using Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee882e4a9a89ddd11308f5ef190392a') in 0.020253 seconds
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9324ce1178432137dba8b938cb2bb8') in 0.083977 seconds
+  Import took 0.086555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat
+  artifactKey: Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat using Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee882e4a9a89ddd11308f5ef190392a') in 0.010026 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9324ce1178432137dba8b938cb2bb8') in 0.025513 seconds
+  Import took 0.027854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.535664 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecf6fa401c156c5acb20b8b59f00ee8') in 0.030470 seconds
+  Import took 0.032916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Gary_Snaps014.mat
+  artifactKey: Guid(256eee0f82507ec4e95305ef81e78918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Gary_Snaps014.mat using Guid(256eee0f82507ec4e95305ef81e78918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d81fe19e2f7776bb86b2c62ad9d74d5') in 0.009538 seconds
+  Import took 0.011672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.676560 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Glass_Snaps014.mat
+  artifactKey: Guid(4ddc43a4badaf7b4c927da90636e454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Glass_Snaps014.mat using Guid(4ddc43a4badaf7b4c927da90636e454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cff61ca1527931612889b7cf08faad5') in 0.241245 seconds
+  Import took 0.243720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405807 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aa7401d602b3184957421938c3ebf1') in 0.075593 seconds
+  Import took 0.081880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.096416 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d66f617384e95c6f6fa8059acb8cbcf') in 0.074867 seconds
+  Import took 0.080939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.097373 seconds.
+  path: Assets/Tileset2/Plane.prefab
+  artifactKey: Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Plane.prefab using Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b12470ca07007699ae8bc5ece6cc95') in 0.010259 seconds
+  Import took 0.012541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017203 seconds.
+  path: Assets/Tileset2/Plane.prefab
+  artifactKey: Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Plane.prefab using Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b12470ca07007699ae8bc5ece6cc95') in 0.010393 seconds
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447405 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6469051c5a302ac23252ef67bdbf2c7') in 0.069908 seconds
+  Import took 0.076119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.255181 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c0caea20027739c25b227ac3939f1d') in 0.045270 seconds
+  Import took 0.049737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.806014 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cf97e62cc7bc7cebb43fe7b9b73072') in 0.046671 seconds
+  Import took 0.051162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.087362 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1478ec7dd2e391b12c0d7935216073') in 0.044522 seconds
+  Import took 0.049142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.954497 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18d731f92c4aff92ec8b575a1e4d35d') in 0.042015 seconds
+  Import took 0.046342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.531186 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec59b1ba81424f7ce69bf2f4c744829') in 0.042543 seconds
+  Import took 0.047108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.346649 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7df589a507f683ddfefb98efdc81793') in 0.045551 seconds
+  Import took 0.050058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.519343 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77fdafbee24542ed7d7fea514481593') in 0.044361 seconds
+  Import took 0.048904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.955196 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddfe741561fceb067103d146c064e59') in 0.043459 seconds
+  Import took 0.047879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.078074 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7807357fb77b3c28c04b61dd7a8764') in 0.043256 seconds
+  Import took 0.047677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.149870 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ea4a5a942df22e08c2336d7cda49b4') in 0.033185 seconds
+  Import took 0.037006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.046359 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb785fa3340c46b1a55992952c4b3d41') in 0.031182 seconds
+  Import took 0.034919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.067436 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b322802734d5f78fbc9a979b9ffff2') in 0.035565 seconds
+  Import took 0.039857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.814591 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ba49d3d697dbc3c1a2347903d72a8d') in 0.033153 seconds
+  Import took 0.036964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.019488 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315cc79fd8e999a0fd97f497e0ab97fd') in 0.055611 seconds
+  Import took 0.060378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.508596 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e66ad1a436722cbe62abab2f2ed6f54') in 0.056803 seconds
+  Import took 0.061581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.127046 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f320c0be2def6e7078afc5bdb592b5') in 0.053806 seconds
+  Import took 0.058753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.512181 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4a5fc53667875d37d53691e502e78d') in 0.054497 seconds
+  Import took 0.059428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277647 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9144b878770b5f23b85521a08a9aa46a') in 0.051825 seconds
+  Import took 0.056654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.899663 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b493ddb1205b1a53aacb4cba42b4e9d') in 0.056373 seconds
+  Import took 0.061009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.888762 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedf8c4dbe48b102697c57fdf3b65777') in 0.053412 seconds
+  Import took 0.058115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.697109 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7426116ab9dd75f67ddb8870a1a399bc') in 0.054844 seconds
+  Import took 0.059968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 1.769900 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.499000 ms  DeleteObjects: 0.088700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.303884 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c7f99855f1240454365ba407a8c847') in 0.116260 seconds
+  Import took 0.123785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.599124 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ba1e6389285e6488c712a366f6e4f7') in 0.074020 seconds
+  Import took 0.080075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.408461 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fa627ca002e642b5f7bb6715f53d48') in 0.070698 seconds
+  Import took 0.076897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.144756 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7a50b6dea2d3a450e8b85efc2f0577') in 0.086896 seconds
+  Import took 0.094577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.326782 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e746db2316c85007f5cd7bc0c97f4d') in 0.089586 seconds
+  Import took 0.096996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.563269 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775512b88ab0f1229f78669435479ce') in 0.082291 seconds
+  Import took 0.089733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.958924 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be478d5470d210951daea2d4f966f8e3') in 0.086652 seconds
+  Import took 0.094379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36d85dbefde81b0478d61823c4eea4f') in 0.043197 seconds
+  Import took 0.048727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.858170 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9bf014fdd0b6bec9cf22ee22118f88') in 0.087306 seconds
+  Import took 0.096327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1b42bb2eced27264911d9c03316c86') in 0.036927 seconds
+  Import took 0.041068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.448416 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422e05f0127e183b7fe8f1ca0756008e') in 0.088545 seconds
+  Import took 0.096124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f82fa511df28f6cecb1fdecb32edb5a') in 0.040069 seconds
+  Import took 0.043927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.293917 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627b247f115c2c8d4e7c938116420011') in 0.097951 seconds
+  Import took 0.105812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.452237 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7c3b357861fac8ac0b13c3c9114016') in 0.074565 seconds
+  Import took 0.080866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.282823 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6711fc8097549c36f6ad0f3a8c7d8b1') in 0.068476 seconds
+  Import took 0.074494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.215932 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801f7425bbc652cd5ef95fca7a1d15df') in 0.079106 seconds
+  Import took 0.086168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.728419 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d82d1eab29c4752f314cd5f6cecd84') in 0.071410 seconds
+  Import took 0.077850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.271618 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec1ffcbcf08ab1adf1dcb04e2e5333d') in 0.088117 seconds
+  Import took 0.095567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.809652 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0b371b0ba1a860202d8efcc01e3c84') in 0.071735 seconds
+  Import took 0.077901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.840196 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4b6f4d88bdb5e2eaeb85662f875bd') in 0.070701 seconds
+  Import took 0.076718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.052920 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d9b3d93f6a60a50012471db8714272') in 0.067670 seconds
+  Import took 0.073695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024400 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d74698536e367562f68c60b50818742') in 0.079796 seconds
+  Import took 0.086863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.335272 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b25eb1f1ffdaa81f5971009ca57863') in 0.054783 seconds
+  Import took 0.060341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.818813 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a2e5a7bf0c7027b3583fbf08039bb8') in 0.044345 seconds
+  Import took 0.048901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.522637 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31c1bb3db0c83bd4df8536e21eceab') in 0.044551 seconds
+  Import took 0.049151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.423230 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5874e239f0923a5ccfe1edccbc348831') in 0.042991 seconds
+  Import took 0.047994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.306789 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ef90c2067f784a09371a1b5324fef4') in 0.044224 seconds
+  Import took 0.048982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492622 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ba6dbb95dcb1648346a5e5385c025') in 0.043772 seconds
+  Import took 0.048225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.303009 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a17e6f1401915eef521bf05269721a') in 0.055925 seconds
+  Import took 0.061280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.467132 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12ff112f4c2fc0bba928f81634b9984') in 0.050720 seconds
+  Import took 0.055843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.434804 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6890ab738971318c802ed17e4fbc4e81') in 0.053294 seconds
+  Import took 0.059036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f7690d732b9ae6ef3e5adbfd917244') in 0.022009 seconds
+  Import took 0.025170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.255667 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5fe337a920daff7f7d9673052a09cc') in 0.052078 seconds
+  Import took 0.057215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56cf1e0e9ca8d425d7801eb6b604c2d') in 0.022100 seconds
+  Import took 0.025135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.221054 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fd3046caa5af770373fc6e00c820b9') in 0.049636 seconds
+  Import took 0.054813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1343c568fde4f8bf74f8b235047e3') in 0.023600 seconds
+  Import took 0.026517 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 2.342000 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.051600 ms  DeleteObjects: 0.072500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 1.671300 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.438900 ms  DeleteObjects: 0.044800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 1.623000 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.369700 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 471.865224 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4414ea9ecc4f20e64f95eb7e7c49ee') in 0.098839 seconds
+  Import took 0.105317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tileset2/Plane.prefab
+  artifactKey: Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Plane.prefab using Guid(2d283cfbe1e0946489f7e13aa129d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5200090245799923b16784d8e92414fc') in 0.008630 seconds
+  Import took 0.010901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d89132d1bf1ef097630556d276006fc') in 0.031295 seconds
+  Import took 0.034874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49cceb0769db33fcc7cfd246451b21f') in 0.051846 seconds
+  Import took 0.056335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0fb65a426187d23894f02c4ef560d7') in 0.050499 seconds
+  Import took 0.055322 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 1.674300 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.418500 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.489730 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a43676df1722fc020a0742b2e56e9ca') in 0.099077 seconds
+  Import took 0.109680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646134 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf94d2d062c058ebc5670ecb5f3103f') in 0.093579 seconds
+  Import took 0.100775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.421128 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dedc5419d56f421887896836700a93') in 0.079080 seconds
+  Import took 0.086941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.435251 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eac9b894aac2dbc954eccdb87a2de3e') in 0.072080 seconds
+  Import took 0.078243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409184 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c56884278352a32ee236e6620c33a31') in 0.077374 seconds
+  Import took 0.083465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613530 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3897f28601fb97fee16399b0610f57dc') in 0.081788 seconds
+  Import took 0.087870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608298 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d3f44170853ea74d94715598a58bd') in 0.071217 seconds
+  Import took 0.078472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008795 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62210273d8cb5d79094fa84c7299c03') in 0.078087 seconds
+  Import took 0.084920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.469197 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f318ffb525508c6b6004a3216210116') in 0.069182 seconds
+  Import took 0.075179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 757.326390 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47794dfbea71d53b607eb06528c35ce2') in 0.117722 seconds
+  Import took 0.125460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.817944 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0cfd2756465ebbc3579cf20a5279b') in 0.073150 seconds
+  Import took 0.079480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.042582 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f773a96805c7327436c8ab4ea12f8d68') in 0.073245 seconds
+  Import took 0.079481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.445793 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb44087ff1051a338330e1fe40b8150') in 0.073850 seconds
+  Import took 0.079929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.069591 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc04fad42ed99c323a13d3d677d9ea22') in 0.079496 seconds
+  Import took 0.086655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.851263 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f703fc0b8b306344261177e14669ac') in 0.084719 seconds
+  Import took 0.091827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.495603 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67919700cbd5eefc345928cdd8e0bbf') in 0.076693 seconds
+  Import took 0.083218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.870987 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fbf778e543c7ffbc4ffc8033053645') in 0.055553 seconds
+  Import took 0.060816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf8614f6bb81f89cd0b5696cf9c581f') in 0.025487 seconds
+  Import took 0.028374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024535 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc2d3fb376249026a4e394f04786940') in 0.053265 seconds
+  Import took 0.058557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62beab378cc83467efadbba4ce02800c') in 0.024670 seconds
+  Import took 0.027714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.838202 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fbcb9106e8a5c6cf5790aaf555d117') in 0.052765 seconds
+  Import took 0.058236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9a01de009cc8090909b1a66d138061') in 0.025504 seconds
+  Import took 0.028832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.030992 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c055ecb1d3ebb495b5a080c1ba59c6') in 0.054921 seconds
+  Import took 0.060132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712becfdbcdc8723cdf8cc9794708b63') in 0.025240 seconds
+  Import took 0.028049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.250935 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aa0538f5c80471645ce37017cced77') in 0.056158 seconds
+  Import took 0.062433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3611733337508a9ac7f11bcf3f54329') in 0.026090 seconds
+  Import took 0.029370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.472394 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b4afa6ffee442cbf89c17c09ae9dbe') in 0.052499 seconds
+  Import took 0.057676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177ad5a574e8ee6e3aa66579be69f4f') in 0.024242 seconds
+  Import took 0.027251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.098739 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35ad2f0dd42682e3bbac1ab46d75613') in 0.054817 seconds
+  Import took 0.059854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74258a465a27746c5d4e1dea0a350a95') in 0.025937 seconds
+  Import took 0.028734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.845866 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633dbca6caf5ec5f43d5e10b40a24ef2') in 0.063090 seconds
+  Import took 0.068801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942ff32ff20cdbf273180e608c0a50c9') in 0.024769 seconds
+  Import took 0.028460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.369119 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9440a3c9a77cdce0feb8eaf5a6d22904') in 0.056703 seconds
+  Import took 0.062009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375680f9f1e6341b5ab68f7298d9428') in 0.026806 seconds
+  Import took 0.029736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.946425 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c38d862e1d6a98cb39219cd0c58d98') in 0.055572 seconds
+  Import took 0.060846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5153de0edec312cf781175376b6f9e2d') in 0.024594 seconds
+  Import took 0.027488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.036457 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccf43aa877ebdbd45e553f5099da57e') in 0.051262 seconds
+  Import took 0.056362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c641a63fc6a1f1a1eb9269dc25b6d3e') in 0.025037 seconds
+  Import took 0.028054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.278188 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa11397f78beae7858275000a926c1c') in 0.054719 seconds
+  Import took 0.059731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4dfdeaf4b95977eb02ee1c957815ac') in 0.023993 seconds
+  Import took 0.026879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679535 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea7462d977d68a86eeb977c2b981d3') in 0.054949 seconds
+  Import took 0.060039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9b3c26e23a067da6e259eaf45f5902') in 0.026644 seconds
+  Import took 0.029556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.873558 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170ecb2fac51fd1e6c2a27c55fbcb57e') in 0.061050 seconds
+  Import took 0.066789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df137ef7d0435b4c9ef6d0744f4e62a4') in 0.026883 seconds
+  Import took 0.030281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.089079 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea49bcb0bd68727aa2f3d155c760c212') in 0.059524 seconds
+  Import took 0.066002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d2886547a91c81f3ab500ee7d2e819') in 0.026571 seconds
+  Import took 0.030344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.643983 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594e662dcee5fe059a20f76194bddc2e') in 0.060785 seconds
+  Import took 0.066967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74134d36964f492e955bc3905084453b') in 0.026309 seconds
+  Import took 0.029783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.454938 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7ae1a80fd36385797d676032557c31') in 0.062070 seconds
+  Import took 0.068107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdab9672aab5fac045e03360a6b95aa') in 0.025645 seconds
+  Import took 0.028940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.624983 seconds.
+  path: Assets/Tileset2/Tile 4.asset
+  artifactKey: Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 4.asset using Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a96708709dce5e9995beef5e910645') in 0.013988 seconds
+  Import took 0.018084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.683189 seconds.
+  path: Assets/Tileset2/Tile 4.asset
+  artifactKey: Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 4.asset using Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6945e06e5d861f1e22e247d726695ef4') in 0.014248 seconds
+  Import took 0.018002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tileset2/Tile 5.asset
+  artifactKey: Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 5.asset using Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad677cfea52f952750c2b01a971f8b65') in 0.016746 seconds
+  Import took 0.020208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/Tileset2/Tile 5.asset
+  artifactKey: Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 5.asset using Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad677cfea52f952750c2b01a971f8b65') in 0.013876 seconds
+  Import took 0.017308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.094349 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636d10b760c382894d173977697b16f9') in 0.047580 seconds
+  Import took 0.051656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.034584 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ced4900be99ea63ef575f1871dd3a4') in 0.045470 seconds
+  Import took 0.049351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.611573 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dee3238515478235846193a544c48dc') in 0.039993 seconds
+  Import took 0.044004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.224823 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25615e74a46d54169388ad88142d204c') in 0.044027 seconds
+  Import took 0.048028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.049697 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9e43189275983dcc463ef9d30cdc0a') in 0.044982 seconds
+  Import took 0.048949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.627730 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8d5fce287a278d318b773e7f19bba4') in 0.043699 seconds
+  Import took 0.047627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.648430 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5d88a266cd378f20dd467fb3f7ac48') in 0.046808 seconds
+  Import took 0.051416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.896619 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeb1ba5f957e7299408f7641df83868') in 0.046061 seconds
+  Import took 0.050682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.042301 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b050cc8a44cf88601a9f1953814efea') in 0.047771 seconds
+  Import took 0.052283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.237660 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a11452a2a5641a514d305b6dc1addc') in 0.045678 seconds
+  Import took 0.049651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.832784 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1ee4d6c7680c2bbe2b9b08ba0890b9') in 0.049410 seconds
+  Import took 0.054092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.918415 seconds.
+  path: Assets/Tileset2/Tile 4.asset
+  artifactKey: Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 4.asset using Guid(9a51bbc0a5efff74885ccb889fb149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166700b540ce5f67b629a9a839cb0b35') in 0.012388 seconds
+  Import took 0.015810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tileset2/Tile 5.asset
+  artifactKey: Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Tile 5.asset using Guid(3369c844a0c441149b4d1afcc0821895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f90f5c869686b060344a9afc7cff90e') in 0.020958 seconds
+  Import took 0.025108 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2110.
+Total: 1.866200 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.588500 ms  DeleteObjects: 0.055900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.969264 seconds.
+  path: Assets/Tileset2/Cube (89).prefab
+  artifactKey: Guid(445545e7310a99647b406802398bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Cube (89).prefab using Guid(445545e7310a99647b406802398bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d63a70200ecd2b8ad7dcb5b6af97f30') in 0.068465 seconds
+  Import took 0.072060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.151333 seconds.
+  path: Assets/Tileset2/Cube (89).prefab
+  artifactKey: Guid(445545e7310a99647b406802398bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Cube (89).prefab using Guid(445545e7310a99647b406802398bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf0c006e0d965d13358ea7a12c3b101') in 0.039810 seconds
+  Import took 0.043242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.056262 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd649a9dbf6b14b4ba0b40475d7efa126') in 0.055461 seconds
+  Import took 0.060850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94cd15e445a9701edfb01135fed4d36') in 0.024492 seconds
+  Import took 0.027474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.645245 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e5dca1fcee4242a7927a91355b2e7') in 0.061386 seconds
+  Import took 0.067168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbac6e8767ebe05993443e4da5a9451') in 0.025349 seconds
+  Import took 0.028575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.467198 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719eb5f49032dad39a26f64c777a0c05') in 0.054117 seconds
+  Import took 0.059489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdbe76e33397c3d1bf37ed6289c8741') in 0.024956 seconds
+  Import took 0.027810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.841032 seconds.
+  path: Assets/Tileset2/Building_A_02.prefab
+  artifactKey: Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_02.prefab using Guid(1deb02c81eb1808448ba828bcbdba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fae3d94fc363c840fd2266f2fe09fdc') in 0.064468 seconds
+  Import took 0.070749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab
+  artifactKey: Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Roof_01a_snaps020 (245).prefab using Guid(b08cd4972043c2c4b9fd33d41e4f7738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2b59488d156943d64fd54b49364441') in 0.027055 seconds
+  Import took 0.030734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.166937 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b770423fc7b35fddd6887c0326c81dd') in 0.085573 seconds
+  Import took 0.092882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.821438 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb56e67bbcd9feca2870e67fd5db0323') in 0.086230 seconds
+  Import took 0.093398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.270185 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732a098865d3af24592c209d488f7a4') in 0.067773 seconds
+  Import took 0.073783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.605234 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ab1604bf3191a347b1a35c15921f3') in 0.078121 seconds
+  Import took 0.085456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.868985 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214d9f82de8d5a9f0c5a5430de22a870') in 0.085340 seconds
+  Import took 0.092329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.045634 seconds.
+  path: Assets/Tileset2/Building_A_01.prefab
+  artifactKey: Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_01.prefab using Guid(75fcccd1c2ea92842819e3754548d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25c354f09fd7360616ab16e44886088') in 0.080933 seconds
+  Import took 0.087970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.804005 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e94cb8236da3c5e391564c40b841cb1') in 0.052970 seconds
+  Import took 0.058056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.895550 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5442c338010ffc26d6bb3d714d4d92') in 0.053855 seconds
+  Import took 0.058565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.341308 seconds.
+  path: Assets/Tileset2/Building_A_04.prefab
+  artifactKey: Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_04.prefab using Guid(f8058afc877ca8d46a1baf5268d048b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae52ae5619f9e00e955f71c5eb01f7d') in 0.062035 seconds
+  Import took 0.067055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.909894 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5f1a3a39f01195b4260fa3e8dca6b1') in 0.040440 seconds
+  Import took 0.044295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.280665 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766da8300181714dd506a3d8585b3e7d') in 0.042540 seconds
+  Import took 0.046761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.477687 seconds.
+  path: Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab
+  artifactKey: Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_Wall_01d_snaps020 (139).prefab using Guid(80297a7d999719145b501da119e85e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0720d07dcbb226e38bc6fc66bcaf7148') in 0.042999 seconds
+  Import took 0.047161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.383120 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53bb035e0212fe9267900b90c8a7bee') in 0.031263 seconds
+  Import took 0.035181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.658286 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a808ee138527891dbe894ce8c81ac19e') in 0.035426 seconds
+  Import took 0.039470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.695971 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a2728b7439c175924acb2c57790f9c') in 0.035372 seconds
+  Import took 0.039570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.258153 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56c8ef3f4b329fa0aa16dfb000c9314') in 0.029965 seconds
+  Import took 0.033531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.647069 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bb8882e601c5b0651b77ddbadc86e5') in 0.031214 seconds
+  Import took 0.035145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.443558 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ace57d8ee6ce09ba4c0315a099f14f') in 0.032739 seconds
+  Import took 0.036415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.067753 seconds.
+  path: Assets/Tileset2/Building_A_03.prefab
+  artifactKey: Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset2/Building_A_03.prefab using Guid(d9f6a9f79395db941b269797023b75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723f18c104f1b97c43743d2d607ccd5a') in 0.032307 seconds
+  Import took 0.035946 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 6.604300 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.177600 ms MarkObjects: 5.786400 ms  DeleteObjects: 0.182200 ms)
+
