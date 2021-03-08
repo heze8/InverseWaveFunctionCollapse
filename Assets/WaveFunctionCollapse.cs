@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 ///summary
@@ -134,17 +135,108 @@ public class WaveFunctionCollapse : MonoBehaviour
     void Start()
     {
 		//BeginProcess();
+		mainCam = Camera.main;
     }
-    
+
+    private Camera mainCam;
+    private GameObject transBuilding;
+    int mod(int k, int n)
+    {
+	    return ((k %= n) < 0) ? k+n : k;
+    }
+    public static Vector3 GetRotationVector(int direction)
+    {
+	    switch (direction)
+	    {
+		    case 0://right
+			    return new Vector3(0, -90, 0);
+		    case 1://left
+			    return new Vector3(0, 90, 0);
+		    case2://up
+			    return new Vector3();
+		    case 3: //down
+			    return new Vector3(0, -180,0);
+		    default:
+			    return new Vector2();
+	    }
+    }
+
+    public KeyValuePair<int, int>[,,] input;
+    private int direction; //0, 1, 2, 3
+    void Update()
+    {
+	    if (!spawnTile) return;
+	    Vector3 worldPoint = new Vector3();// = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+	    //Plane plane = new Plane(Vector3.up, 0);
+
+	    Plane plane = new Plane(Vector3.up, 0);
+	    float distance;
+	    if (!mainCam)
+	    {
+		    Debug.Log("no cam");
+	    }
+	    Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
+            
+	    if (plane.Raycast(ray, out distance))
+	    {
+		    worldPoint = ray.GetPoint(distance);
+	    }
+	    // get the collision point of the ray with the z = 0 plane
+	    //Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
+
+	    Vector3Int position = new Vector3Int((int) (worldPoint.x / tileSize.x), (int) (worldPoint.z/ tileSize.y), (int) (worldPoint.y/ tileSize.z));
+	    
+		worldPoint = new Vector3(worldPoint.x - worldPoint.x % tileSize.x,worldPoint.y - worldPoint.y % tileSize.y,worldPoint.z - worldPoint.z % tileSize.z );
+	    
+		
+		transBuilding.transform.position = worldPoint;
+	    transBuilding.transform.eulerAngles = GetRotationVector(direction);
+        
+	    if (Input.GetKeyDown(KeyCode.Q))
+	    {
+		    direction = mod(direction - 1,  4); // magic
+	    }
+	    if (Input.GetKeyDown(KeyCode.E))
+	    {
+		    direction = mod(direction + 1,  4);
+	    }
+        
+	    if (Input.GetButtonDown("Click"))
+	    {
+		    // get the grid by GetComponent or saving it as public field
+		    // save the camera as public field if you using not the main camera
+		    spawnTile = false;
+		    input[position.x, position.y, position.z] = new KeyValuePair<int, int>(currentTile, direction);
+		    
+	    }
+    }
     #endregion
 
     public void Begin()
     {
+	    Clear();
 	    BeginProcess();		
     }
+
+    private void Clear()
+    {
+	    for(int i = 0 ; i < gameObject.transform.childCount; i++)
+	    {
+		    Destroy(transform.GetChild(i).gameObject);
+	    }
+    }
+
+    private int currentTile = 0;
+    private bool spawnTile = false;
+    private Vector3 inputSize;
+
     public void ButtonPress(int i)
     {
 	    Debug.Log("tile " + i);
+	    i--;
+	    currentTile = i;
+	    spawnTile = true;
+	    transBuilding = Instantiate(tiles[i].tileObj);
     }
 	
     #region Private Methods
@@ -329,9 +421,9 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    Vector3 pos = new Vector3(coor.x * tileSize.x, coor.z * tileSize.y, coor.y * tileSize.z);
         if (debug)
         {
-			Instantiate(debugObj, pos, Quaternion.identity);
+			Instantiate(debugObj, pos, Quaternion.identity, gameObject.transform);
         }
-	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.identity);
+	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.identity, gameObject.transform);
 	    
 	    for (int i = 0; i < tiles.Count; i++)
 	    {
@@ -388,4 +480,11 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    return Random.value < 0.5f;
     }
 
+    public void UpdateSize(Vector3Int inputSize)
+    {
+	    this.inputSize = inputSize;
+	    Debug.Log(inputSize);
+	    input = new KeyValuePair<int,int>[inputSize.x, inputSize.z, inputSize.y];
+
+    }
 }

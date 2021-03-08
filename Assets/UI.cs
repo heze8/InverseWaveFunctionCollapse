@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ public class UI : MonoBehaviour
     public GameObject buttonPrefab;
     public GameObject ori;
     public float offset;
+    private Vector3Int inputSize;
     #endregion
  
     #region Unity Methods
@@ -30,6 +32,31 @@ public class UI : MonoBehaviour
 	    }
 
 	    
+    }
+
+    public void InputSizeX(string size)
+    {
+
+	    inputSize.x = Int32.Parse(size);
+
+
+	    wfc.UpdateSize(inputSize);
+    }
+    public void InputSizeY(string size)
+    {
+
+	    inputSize.y = Int32.Parse(size);
+
+
+	    wfc.UpdateSize(inputSize);
+    }
+    public void InputSizeZ(string size)
+    {
+
+	    inputSize.z = Int32.Parse(size);
+
+
+	    wfc.UpdateSize(inputSize);
     }
  
     void Update()
