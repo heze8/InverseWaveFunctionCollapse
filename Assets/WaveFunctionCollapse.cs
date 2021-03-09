@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -14,7 +15,9 @@ public class WaveFunctionCollapse : MonoBehaviour
 	public bool debug;
 	public GameObject debugObj;
 
-    public List<Tile> tiles;
+	[FormerlySerializedAsAttribute("tiles")]
+	public List<Tile> tileSet;
+	private List<Tile> tiles;
     private AdjacencyRules adjRules;
     public Cell[,,] outputTiles;
     private ModelProcessor modelProcessor;
@@ -150,9 +153,9 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    {
 		    case 0://right
 			    return new Vector3(0, -90, 0);
-		    case 1://left
+		    case 2://left
 			    return new Vector3(0, 90, 0);
-		    case2://up
+		    case 1://up
 			    return new Vector3();
 		    case 3: //down
 			    return new Vector3(0, -180,0);
@@ -163,13 +166,14 @@ public class WaveFunctionCollapse : MonoBehaviour
 
     public KeyValuePair<int, int>[,,] input;
     private int direction; //0, 1, 2, 3
+    private float level;
     void Update()
     {
 	    if (!spawnTile) return;
 	    Vector3 worldPoint = new Vector3();// = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 	    //Plane plane = new Plane(Vector3.up, 0);
 
-	    Plane plane = new Plane(Vector3.up, 0);
+	    Plane plane = new Plane(Vector3.up, -level * tileSize.y);
 	    float distance;
 	    if (!mainCam)
 	    {
@@ -192,24 +196,44 @@ public class WaveFunctionCollapse : MonoBehaviour
 		transBuilding.transform.position = worldPoint;
 	    transBuilding.transform.eulerAngles = GetRotationVector(direction);
         
-	    if (Input.GetKeyDown(KeyCode.Q))
+	    if (Input.GetKeyDown(KeyCode.Alpha1))
 	    {
 		    direction = mod(direction - 1,  4); // magic
 	    }
-	    if (Input.GetKeyDown(KeyCode.E))
+	    if (Input.GetKeyDown(KeyCode.Alpha3))
 	    {
 		    direction = mod(direction + 1,  4);
 	    }
-        
+
+	    level += Input.mouseScrollDelta.y;
+
+	    if (Math.Abs(inputSize.y) < 0.1f) return;
+	    level = mod((int) level,(int) inputSize.y);
+	    
 	    if (Input.GetButtonDown("Click"))
 	    {
 		    // get the grid by GetComponent or saving it as public field
 		    // save the camera as public field if you using not the main camera
+		    if (inputSize.x <= position.x || position.x < 0 || inputSize.y <= position.z || position.z < 0 ||
+		        inputSize.z <= position.y || position.y < 0)
+		    {
+			    Debug.Log(position);
+			    ClearTransTile();
+			    return;
+		    }
+
 		    spawnTile = false;
 		    input[position.x, position.y, position.z] = new KeyValuePair<int, int>(currentTile, direction);
 		    
 	    }
     }
+
+    private void ClearTransTile()
+    {
+	    spawnTile = false;
+	    Destroy(transBuilding);
+    }
+
     #endregion
 
     public void Begin()
@@ -228,7 +252,7 @@ public class WaveFunctionCollapse : MonoBehaviour
 
     private int currentTile = 0;
     private bool spawnTile = false;
-    private Vector3 inputSize;
+    private Vector3Int inputSize;
 
     public void ButtonPress(int i)
     {
@@ -236,15 +260,18 @@ public class WaveFunctionCollapse : MonoBehaviour
 	    i--;
 	    currentTile = i;
 	    spawnTile = true;
-	    transBuilding = Instantiate(tiles[i].tileObj);
+	    transBuilding = Instantiate(tileSet[i].tileObj, transform);
     }
 	
     #region Private Methods
 
     void BeginProcess()
     {
-	    // tiles = modelProcessor.PreprocessModel(tileSize);
 	    //
+	    modelProcessor = new ModelProcessor();
+	    tiles = modelProcessor.PreprocessModel(input, tileSet, inputSize);
+	    adjRules = modelProcessor.GetAdjacencyRule();
+
 	    var ind = 0;
 	    freqRules = new FrequencyRules(tiles.Count);
 
@@ -255,12 +282,14 @@ public class WaveFunctionCollapse : MonoBehaviour
 		    t.index = ind++;
 
 	    }
-	    adjRules = new AdjacencyRules(tiles.Count);
 	    
+	    
+
 	    entropyPq = new PriorityQueue<KeyValuePair<Cell, double>>(new Comparer()) ;
 
 	    tileRemovals = new Stack<RemovalUpdate>();
-	    CreateAdjacencyRules();
+
+	    
 	    outputTiles = new Cell[gridSize.x, gridSize.y, gridSize.z];
 	    for (int i = 0; i < gridSize.x; i++)
 	    {
@@ -423,7 +452,7 @@ public class WaveFunctionCollapse : MonoBehaviour
         {
 			Instantiate(debugObj, pos, Quaternion.identity, gameObject.transform);
         }
-	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.identity, gameObject.transform);
+	    Instantiate(tile.tileObj, tile.tileObj.transform.position + pos, Quaternion.Euler(GetRotationVector(tile.direction)), gameObject.transform);
 	    
 	    for (int i = 0; i < tiles.Count; i++)
 	    {
@@ -457,34 +486,24 @@ public class WaveFunctionCollapse : MonoBehaviour
     }
     #endregion
 
-    void CreateAdjacencyRules()
-    {
-	    foreach (var a in tiles)
+
+
+    public void UpdateSize(Vector3Int inputSize)
+    {					Clear();
+
+	    this.inputSize = inputSize;
+	    input = new KeyValuePair<int,int>[inputSize.x, inputSize.z, inputSize.y];
+	    for (int i = 0; i < inputSize.x; i++)
 	    {
-		    foreach (var b in tiles)
+		    for (int j = 0; j < inputSize.y; j++)
 		    {
-			    foreach (var direction in (AdjacencyRules.Direction[]) Enum.GetValues(typeof(AdjacencyRules.Direction)))
+			    for (int z = 0; z < inputSize.z; z++)
 			    {
-				    if (IsCompatible(a, b, direction))
-				    {
-					    adjRules.Allow(a, b, direction);
-				    }
-				    
+					input[i,z,j] = new KeyValuePair<int, int>(-1,-1);
+				    Instantiate(debugObj, new Vector3(tileSize.x * i, tileSize.y * j, tileSize.z * z),
+					    Quaternion.identity, transform);
 			    }
 		    }
 	    }
-    }
-
-    private bool IsCompatible(Tile tile, Tile tile1, AdjacencyRules.Direction direction)
-    {
-	    return Random.value < 0.5f;
-    }
-
-    public void UpdateSize(Vector3Int inputSize)
-    {
-	    this.inputSize = inputSize;
-	    Debug.Log(inputSize);
-	    input = new KeyValuePair<int,int>[inputSize.x, inputSize.z, inputSize.y];
-
     }
 }

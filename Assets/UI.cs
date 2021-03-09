@@ -22,7 +22,7 @@ public class UI : MonoBehaviour
     void Start()
     {
 	    int i = 0;
-	    foreach (var t in wfc.tiles)
+	    foreach (var t in wfc.tileSet)
 	    {
 		    var instantiate = Instantiate(buttonPrefab, ori.transform.position + i++ * offset * Vector3.down, Quaternion.identity);
 		    instantiate.transform.SetParent(gameObject.transform);

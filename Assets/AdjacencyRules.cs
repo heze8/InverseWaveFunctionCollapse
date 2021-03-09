@@ -7,8 +7,8 @@
         public enum Direction
         {
             Left = 0,
-            Right = 1,
-            Up = 2,
+            Up = 1,
+            Right = 2,
             Down = 3,
             Forward = 4,
             Backward = 5
@@ -18,7 +18,7 @@
         {
             switch (direc) {
                 case AdjacencyRules.Direction.Left:
-                return Direction.Right;
+                    return Direction.Right;
                 break;
                 case AdjacencyRules.Direction.Right:
                     return Direction.Left;

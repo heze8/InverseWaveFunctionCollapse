@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e14e4109f084dc9af6b600da638fa09, type: 3}
   m_Name: Tile 3
   m_EditorClassIdentifier: 
-  index: 0
-  tileObj: {fileID: 4966621003587360703, guid: d9f6a9f79395db941b269797023b75c3, type: 3}
+  index: 2
+  tileObj: {fileID: 8562765603574471883, guid: 0b935b5dd44746f48bfab2d697d41f6d, type: 3}
   freq: 1
